@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.main {
+    color: white;
+    margin: 4%;
+}
+
+.main-title {
+    color: blueviolet;
+    font-size: 40pt;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.main-image {
+    display: block;
+    margin: 0 auto;
+    width: 15vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+}
+
+.main-paragraph-1 {
+    margin-top: 5vh;
+    text-align: justify;
+    font-size: 20pt;
+    letter-spacing: 1pt;
+}
+
+.main-paragraph-2 {
+    text-align: justify;
+    font-size: 20pt;
+    letter-spacing: 1pt;
+}
+
+.main-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+    font-size: 20pt;
+    list-style: none;
+    color: blueviolet;
+}
